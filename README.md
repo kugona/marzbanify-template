@@ -1,4 +1,4 @@
-<h3 align="center">Marzbanify Template</h3>
+<h3 align="center">Marzbanify (Marzneshin) Template</h3>
 
 <p align="center">
   Simple, beautiful, and user-friendly HTML template for <a href="https://github.com/marzneshin/marzneshin">Marzneshin</a> subscription page
