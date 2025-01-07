@@ -1,16 +1,16 @@
 <h3 align="center">Marzbanify Template</h3>
 
 <p align="center">
-  Simple, beautiful, and user-friendly HTML template for <a href="https://github.com/Gozargah/Marzban">Marzban</a> subscription page
+  Simple, beautiful, and user-friendly HTML template for <a href="https://github.com/marzneshin/marzneshin">Marzmesnin</a> subscription page
   <br>
   <a href="https://denisromanov.ru/projects/marzbanify-template-demo"><strong>Live demo »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/dermv/marzbanify-template/tree/main#features">Features</a>
+  <a href="https://github.com/kugona/marzbanify-template/tree/main#features">Features</a>
   ·
-  <a href="https://github.com/dermv/marzbanify-template/tree/main#installation">Installation</a>
+  <a href="https://github.com/kugona/marzbanify-template/tree/main#installation">Installation</a>
   ·
-  <a href="https://github.com/dermv/marzbanify-template/tree/main#personalization">Personalization</a>
+  <a href="https://github.com/kugona/marzbanify-template/tree/main#personalization">Personalization</a>
 </p>
 
 <p>
@@ -33,21 +33,21 @@
 
 1. Upload the file to the server.
 ```
-sudo wget -O /var/lib/marzban/templates/subscription/index.html https://raw.githubusercontent.com/dermv/marzbanify-template/main/index.html
+sudo wget -O /var/lib/marzneshin/templates/subscription/index.html https://raw.githubusercontent.com/kugona/marzbanify-template/main/index.html
 ```
 2. Enter these commands to automatically specify the file path to the subscription page.
 ```
-echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"' | sudo tee -a /opt/marzban/.env
-echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/marzban/.env
+echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzneshin/templates/"' | sudo tee -a /etc/opt/marzneshin/.env
+echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /etc/opt/marzneshin/.env
 ```
-Or specify them manually by editing the Marzban `.env` file.
+Or specify them manually by editing the Marzneshin `.env` file.
 ```
-CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"
+CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzneshin/templates/"
 SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"
 ```
-3. Restart Marzban to apply the changes.
+3. Restart Marzneshin to apply the changes.
 ```
-marzban restart
+marzneshin restart
 ```
 
 ## Host Version
